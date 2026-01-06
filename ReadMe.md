@@ -12,7 +12,7 @@ SmartML is part of the ***SmartEco*** ecosystem.
 
 ---
 
-## ### Core Principles
+## Core Principles
 
 - **CPU-only by default**
 - **Deterministic and reproducible benchmarks**
@@ -27,7 +27,7 @@ No fake availability. No “works on my GPU” nonsense.
 
 ---
 
-## ### Intended Use & Scope
+## Intended Use & Scope
 
 SmartML is **not a commercial AutoML system**.
 
@@ -54,7 +54,7 @@ Please refer to the official ***SmartEco*** documentation and website.
 
 ---
 
-## ### Installation
+## Installation
 
 SmartML is used as part of the ***SmartEco*** package.
 
@@ -83,7 +83,7 @@ Installing these unlocks additional models:
 
 ---
 
-## ### Data Encoding & Preprocessing
+## Data Encoding & Preprocessing
 
 SmartML uses **minimal, transparent, and safe preprocessing**.
 
@@ -111,7 +111,7 @@ Additional guarantees:
 
 ---
 
-## ### Train / Test Split
+## Train / Test Split
 
 - Fixed random seed is always used
 - Default split is deterministic
@@ -125,7 +125,7 @@ This ensures:
 
 ---
 
-## ### Available Models
+## Available Models
 
 SmartML dynamically detects and exposes models that are usable on the **current machine**.
 
@@ -171,7 +171,7 @@ Depending on installed dependencies:
 
 ---
 
-## ### Model Availability Policy
+## Model Availability Policy
 
 If a model cannot run on the current system, it **does not appear**.
 
@@ -184,7 +184,7 @@ Model availability is determined **at runtime**.
 
 ---
 
-## ### Inspection Utility
+## Inspection Utility
 
 SmartML provides a runtime inspection utility called ***SmartML_Inspect***.
 
@@ -198,7 +198,7 @@ It generates a JSON file reporting:
 
 ---
 
-## ### Evaluation Metrics
+## Evaluation Metrics
 
 ### ***Classification Metrics***
 - Accuracy
@@ -219,7 +219,7 @@ These metrics evaluate **both model quality and real-world performance**.
 
 ---
 
-## ### Benchmarking Behavior
+## Benchmarking Behavior
 
 For each model, SmartML:
 
@@ -235,7 +235,7 @@ Result: **fair, comparable, honest benchmarks**.
 
 ---
 
-## ### Platform Notes
+## Platform Notes
 
 - **Windows + CPU** → fully supported
 - **Linux / WSL** → additional research models may become available
@@ -245,7 +245,7 @@ SmartML remains **CPU-safe by default**.
 
 ---
 
-## ### Experimental & Research Models
+## Experimental & Research Models
 
 Some models exist in the codebase but may be hidden at runtime due to missing dependencies:
 
@@ -261,7 +261,7 @@ These models are:
 
 ---
 
-## ### Architecture Overview
+## Architecture Overview
 
 SmartML is organized into modular components:
 
@@ -275,7 +275,7 @@ Each component is **deterministic and reproducible**.
 
 ---
 
-## ### Part of SmartEco
+## Part of SmartEco
 
 SmartML is one component of the ***SmartEco*** ecosystem
 

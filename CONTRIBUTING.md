@@ -7,7 +7,7 @@ All contributions must align with these principles.
 
 ---
 
-## ### SmartEco Benchmarks & Website Display
+## SmartEco Benchmarks & Website Display
 
 SmartEco publicly displays **benchmark results per dataset** on the SmartEco website.
 
@@ -39,7 +39,7 @@ Datasets must be:
 
 ---
 
-## ### Adding New Models
+## Adding New Models
 
 SmartML only exposes models that:
 - Run on **CPU**
@@ -61,7 +61,7 @@ Models must:
 
 ---
 
-## ### Hyperparameter Tuning & Cross-Validation
+## Hyperparameter Tuning & Cross-Validation
 
 SmartML uses **fixed default hyperparameters by design**.
 
@@ -87,7 +87,7 @@ SmartML will not merge tuning logic that:
 
 ---
 
-## ### Benchmarking Changes
+## Benchmarking Changes
 
 Any change that affects benchmarking behavior must:
 - Preserve determinism
@@ -99,7 +99,7 @@ If results change, the reason must be explainable.
 
 ---
 
-## ### Code Quality Expectations
+## Code Quality Expectations
 
 All contributions should:
 - Be modular and readable
@@ -110,7 +110,7 @@ All contributions should:
 
 ---
 
-## ### How to Contribute
+## How to Contribute
 
 1. Fork the repository
 2. Create a feature branch
@@ -124,7 +124,7 @@ Low-effort or unclear PRs may be closed without review.
 
 ---
 
-## ### Final Notes
+## Final Notes
 
 SmartML values:
 - Transparency over cleverness
